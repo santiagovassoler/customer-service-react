@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/Cellar/node/10.0.0/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:2308:15)
+      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:61031:11
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:322:14
+      at new Promise (<anonymous>)
+      at new F (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:5228:28)
+      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:301:12
+      at runCommand (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:61096:23)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:61195:14)
+
+npm manifest: 
+  {
+      "name": "gqlserver",
+      "version": "1.0.0",
+      "description": "customer service server",
+      "main": "index.js",
+      "scripts": {
+          "test": "",
+          "start": ""
+      },
+      "author": "santiago vassoler",
+      "license": "ISC",
+      "dependencies": {
+          "express": "^4.15.3",
+          "express-graphql": "^0.6.6",
+          "graphql": "^0.10.5",
+          "graphql-tools": "^1.1.0",
+          "react-scripts": "1.1.2"
+      },
+      "devDependencies": {
+          "@babel/core": "^7.2.2",
+          "@babel/preset-env": "^7.2.3",
+          "babel-cli": "^6.24.1",
+          "babel-plugin-add-module-exports": "^0.2.1",
+          "babel-preset-env": "^1.6.0",
+          "babel-preset-stage-3": "^6.24.1",
+          "jest": "^20.0.4"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
