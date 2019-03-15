@@ -30,3 +30,7 @@ yarn install
 npm start
 ```
 
+
+![alt text](1.png "Easy mode on")
+![alt text](2.png "Easy mode on")
+![alt text](3.png "Easy mode on")
